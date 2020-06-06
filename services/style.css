@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth !important;
+}
+
+
+.amj {
+    font-size: 300% !important;
+    color: #fff;
+    text-shadow: 6px 4px 7px gray;
+}
+
+.row h3 {
+    color: #fff;
+    text-shadow: 6px 4px 7px gray;
+}
+
+.text-center {
+    font-size: 6.5rem;
+    color: #fff;
+    text-shadow: 3px 7px 12px black;
+    margin-top: 20px;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../signup/4.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+.border-bottom{
+    margin: 4%;
+}
+.nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: .5rem !important;
+}
+
